@@ -27,13 +27,19 @@ git clone https://github.com/hemantkumarlearning/Data_Analysis_App.git
 cd Data_Analysis_App
 ```
 
-#### 2. Install the required dependencies:
+#### 2. Create a virtual environment (optional but recommended):
+```
+python -m venv venv
+`venv\Scripts\activate`
+```
+
+#### 3. Install the required dependencies:
 
 ```
 pip install -r requirements.txt
 ```
 
-#### 3. Run the application:
+#### 4. Run the application:
 
 ```
 streamlit run app.py
