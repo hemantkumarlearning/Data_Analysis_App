@@ -2,13 +2,14 @@
 
 ## Overview
 
-This Data Analysis App allows users to upload a CSV file, which is then analyzed and visualized using various features. The app displays the dataset as a DataFrame and categorizes the columns into numerical and categorical types. Users can easily visualize the columns using interactive plots created with Plotly. Additionally, the app offers a comparison feature that allows users to explore how a target column compares to all other columns in the dataset.
+This Data Analysis App allows users to upload a CSV file, which is then analyzed and visualized using various features. The app displays the dataset as a DataFrame and categorizes the columns into numerical and categorical types. Users can easily visualize the columns using interactive plots created with seaborn and Plotly. Additionally, the app offers a comparison feature that allows users to explore how a target column compares to all other columns in the dataset.
 
 ## Features
 
 - CSV File Upload: Users can upload any CSV file for analysis.
 - Dataframe Visualization: The uploaded CSV file is displayed as a DataFrame.
 - Numerical and Categorical Column Detection: The app automatically categorizes columns into numerical and categorical types.
+- Seaborn Visualizations: Additional static plots for statistical analysis and visualization, such as heatmaps, pair plots, and correlation plots.
 - Interactive Plots with Plotly: Visualize the data using interactive charts, such as histograms, box plots, and bar plots.
 - Comparison Feature: Users can select a target column and compare it against all other columns in the dataset using various plots.
   
@@ -16,6 +17,7 @@ This Data Analysis App allows users to upload a CSV file, which is then analyzed
 
 - Python: Backend scripting and data manipulation.
 - Pandas: Data handling and analysis.
+- Seaborn: Statistical data visualization for static charts like heatmaps and pair plots.
 - Plotly: Data visualization for interactive charts.
 - Streamlit: Web framework for building the interactive app.
   
