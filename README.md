@@ -23,8 +23,8 @@ This Data Analysis App allows users to upload a CSV file, which is then analyzed
 
 #### 1. Clone this repository:
 ```
-git clone https://github.com/yourusername/data-analysis-app.git
-cd data-analysis-app
+git clone https://github.com/hemantkumarlearning/Data_Analysis_App.git
+cd Data_Analysis_App
 ```
 
 #### 2. Install the required dependencies:
