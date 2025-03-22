@@ -4,6 +4,9 @@
 
 This Data Analysis App allows users to upload a CSV file, which is then analyzed and visualized using various features. The app displays the dataset as a DataFrame and categorizes the columns into numerical and categorical types. Users can easily visualize the columns using interactive plots created with seaborn and Plotly. Additionally, the app offers a comparison feature that allows users to explore how a target column compares to all other columns in the dataset.
 
+![Screenshot 2025-03-22 203130](https://github.com/user-attachments/assets/36d5d3ec-71b5-44f9-a584-7d4c1f4d2550)
+
+
 ## Features
 
 - CSV File Upload: Users can upload any CSV file for analysis.
